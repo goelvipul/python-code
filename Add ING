@@ -1,0 +1,23 @@
+def add_ing(num):
+    if(len(num)<3) :
+        return num
+    else:
+        if num[-3:len(num)]=='ing' :
+            num=num+'ly'
+            return num
+        else:
+            num=num+'ing'
+            return num
+
+
+num='abc'
+print(add_ing(num))
+print("************************")
+num='walking'
+print(add_ing(num))
+print("************************")
+num='ab'
+print(add_ing(num))
+print("************************")
+num='abcdef'
+print(add_ing(num))
