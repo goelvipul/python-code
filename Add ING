@@ -12,12 +12,19 @@ def add_ing(num):
 
 num='abc'
 print(add_ing(num))
+
 print("************************")
 num='walking'
 print(add_ing(num))
+
 print("************************")
 num='ab'
 print(add_ing(num))
+
 print("************************")
 num='abcdef'
+print(add_ing(num))
+
+print("************************")
+num='shweta goel'
 print(add_ing(num))
